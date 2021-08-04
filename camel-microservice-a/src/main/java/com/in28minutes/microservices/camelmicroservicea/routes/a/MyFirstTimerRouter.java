@@ -32,7 +32,7 @@ public class MyFirstTimerRouter extends RouteBuilder {
 //                .transform().constant("Time now is " + LocalDateTime.now())
 //                .bean("getCurrentTimeBean")
                 .bean(getCurrentTimeBean)
-//                .bean(getCurrentTimeBean,"getCurrentTime")
+//                .bean(getCurrentTimeB  an,"getCurrentTime")
         //Processing
         //Transformation
                 .log("${body}")
